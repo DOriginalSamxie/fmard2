@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>FMARD LOGIN</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+    </style>
+  </head>
+  <body>
+    <div
+      class="container mx-auto h-screen w-screen flex flex-col md:flex-row md:space-x-12"
+    >
+      <div
+        class="h-1024 flex flex-col md:text-left md:w-2/5 mb-10 px-6 py-6 relative"
+      >
+        <h1 class="font-bold text-amber-500 text-7xl">
+          F
+          <span class="text-black absolute text-7xl md:top-8 md:l-2">MARD</span>
+        </h1>
+        <h1 class="font-semibold text-2xl mt-8 md:mt-16 mb-2">Log in</h1>
+        <p class="text-gray-400 text-center md:text-left text-xl md:mb-7">
+          Login with your credentials you enter during your registration
+        </p>
+        <form class="px-2 text-left text-gray-500 md:space-y-8">
+          <label class="text-sm" for="Your e-mail"
+            >Your email
+            <input
+              class="mt-2 py-2 px-4 text border border-gray-400 rounded-full w-full focus:outline-none focus:ring-1 ring-blue-500"
+              type="text"
+              placeholder="name@domain.com"
+            />
+          </label>
+          <label class="text-sm" for="Your e-mail"
+            >Password
+            <input
+              class="mt-2 py-2 px-4 text border border-gray-400 rounded-full w-full focus:outline-none focus:ring-1 ring-blue-500"
+              type="password"
+              placeholder="at least 8 characters"
+            />
+          </label>
+          <label class="text-sm" for="">
+            <input class="mt-4" type="checkbox" />
+            Keep me logged in
+          </label>
+          <button
+            class="w-full bg-amber-500 p-2 text-white rounded-lg font-semibold text-sm"
+          >
+            Login
+          </button>
+        </form>
+        <p class="text-center text-sm my-4">
+          Don't have an account?
+          <span class="font-medium text-center text-amber-600"
+            ><a href="">Sign up</a></span
+          >
+        </p>
+        <span class="text-center text-amber-600"
+          ><a href="">Forgot Password?</a></span
+        >
+      </div>
+      <div
+        class="h-1024 flex flex-col md:w-3/5 bg-amber-500 md:pt-12 text-center md:text-left"
+      >
+        <img class="object-contain h-96 w-192" src="./team-work 1.svg" alt="" />
+
+        <p class="text-lg font-bold text-white md:ml-48 mt-8">
+          The best preparation for tomorrow<br />
+          is doing your best today.<br />
+          <span>Let's start with vacanxe</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
