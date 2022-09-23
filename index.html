@@ -12,17 +12,17 @@
   </head>
   <body>
     <div
-      class="container mx-auto h-screen w-screen flex flex-col md:flex-row md:space-x-12"
+      class="container mx-auto h-screen w-screen flex flex-col md:flex-row md:space-x-12 pt-10 md:pt-0"
     >
       <div
-        class="h-1024 flex flex-col md:text-left md:w-2/5 mb-10 px-6 py-6 relative"
+        class="h-full flex flex-col md:text-left md:w-2/5 mb-10 px-6 py-6 relative"
       >
         <h1 class="font-bold text-amber-500 text-7xl">
           F
           <span class="text-black absolute text-7xl md:top-8 md:l-2">MARD</span>
         </h1>
         <h1 class="font-semibold text-2xl mt-8 md:mt-16 mb-2">Log in</h1>
-        <p class="text-gray-400 text-center md:text-left text-xl md:mb-7">
+        <p class="text-gray-400 text-left md:text-left text-xl md:mb-7">
           Login with your credentials you enter during your registration
         </p>
         <form class="px-2 text-left text-gray-500 md:space-y-8">
@@ -43,7 +43,7 @@
             />
           </label>
           <label class="text-sm" for="">
-            <input class="mt-4" type="checkbox" />
+            <input class="mt-4 mb-8 md:mb-0" type="checkbox" />
             Keep me logged in
           </label>
           <button
@@ -63,7 +63,7 @@
         >
       </div>
       <div
-        class="h-1024 flex flex-col md:w-3/5 bg-amber-500 md:pt-12 text-center md:text-left"
+        class="hidden md:flex h-full flex flex-col md:w-3/5 bg-amber-500 md:pt-12 text-center md:text-left"
       >
         <img class="object-contain h-96 w-192" src="./team-work 1.svg" alt="" />
 
